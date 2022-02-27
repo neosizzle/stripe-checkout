@@ -18,6 +18,7 @@ export default function Home() {
 	
 	return (
 	<div>
+		{/* button to perform checkout with dummy data */}
 		<form action="/api/checkout_sessions" method='POST'>
 			<button>
 				checkout
